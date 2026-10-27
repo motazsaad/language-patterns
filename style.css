@@ -52,6 +52,28 @@ h1 em { color: var(--green); font-weight: 500; }
 .number-arabic strong small { color: #99968b; font: 400 14px var(--sans); }
 .number-footnote { grid-column: 1/-1; margin: 9px 0 0; color: #74756c; font-size: 10px; line-height: 1.7; }
 .number-footnote > span { color: var(--orange); }
+.article-gender { padding: 78px 0 14px; }
+.article-gender > .eyebrow { margin-bottom: 10px; }
+.article-gender h2 { margin: 0 0 10px; font: 500 clamp(29px, 4vw, 42px) var(--serif); letter-spacing: -.04em; }
+.article-gender-intro { max-width: 570px; margin-bottom: 22px; color: #65665e; font-size: 13px; line-height: 1.7; }
+.table-wrap { overflow-x: auto; border: 1px solid var(--line); }
+.table-wrap table { width: 100%; min-width: 700px; border-collapse: collapse; background: rgba(255,255,255,.32); text-align: left; }
+.table-wrap th, .table-wrap td { padding: 13px 15px; border-bottom: 1px solid var(--line); vertical-align: top; font-size: 11px; line-height: 1.65; }
+.table-wrap thead th { color: #85867d; font: 10px var(--mono); letter-spacing: .04em; }
+.table-wrap tbody th { color: var(--green); font-weight: 600; white-space: nowrap; }
+.table-wrap tbody tr:last-child th, .table-wrap tbody tr:last-child td { border-bottom: 0; }
+.article-form { color: var(--green); font-weight: 600; }
+.article-gender-note { margin: 12px 0 0; color: #74756c; font-size: 10px; line-height: 1.7; }
+.article-gender-note > span { color: var(--orange); }
+.article-gender-note [lang="ar"] { font: 500 14px "Noto Naskh Arabic", serif; }
+.grammar-lab { padding: 72px 0 8px; }
+.grammar-lab > .eyebrow { margin-bottom: 10px; }
+.grammar-lab > h2 { margin: 0 0 10px; font: 500 clamp(29px, 4vw, 42px) var(--serif); letter-spacing: -.04em; }
+.grammar-lab-intro { max-width: 570px; margin-bottom: 30px; color: #65665e; font-size: 13px; line-height: 1.7; }
+.grammar-topic { margin-top: 30px; }
+.grammar-topic h3 { margin: 0 0 8px; font: 500 21px var(--serif); }
+.grammar-topic > p:not(.article-gender-note) { max-width: 720px; margin-bottom: 14px; color: #65665e; font-size: 11px; line-height: 1.7; }
+.grammar-lab [lang="ar"] { font: 500 15px "Noto Naskh Arabic", serif; }
 .explorer { padding: 83px 0 58px; }
 .section-heading { display: flex; justify-content: space-between; align-items: end; gap: 25px; margin-bottom: 27px; }
 .section-heading .eyebrow { margin-bottom: 10px; }
