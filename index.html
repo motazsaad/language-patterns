@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f6f3eb">
+    <meta name="description" content="A friendly guide to the surprising ways English, French, Italian, and Arabic express the same ideas.">
+    <title>Between the Lines — Language Patterns</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&family=Noto+Naskh+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="wordmark" href="#top" aria-label="Between the Lines home"><span class="wordmark-mark">ب</span> BETWEEN THE LINES</a>
+      <a class="top-link" href="https://motazsaad.github.io/">By Motaz Saad <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <p class="eyebrow"><span class="eyebrow-line"></span> A field guide to language</p>
+        <h1>Same thought.<br><em>Different shape.</em></h1>
+        <p class="hero-copy">Some languages <i>are</i> hungry. Others <i>have</i> hunger. And Arabic sometimes skips the verb altogether. Explore the little grammatical twists that make each language see the world its own way.</p>
+        <div class="language-key" aria-label="Languages in this guide">
+          <span><b class="dot dot-en"></b> English</span>
+          <span><b class="dot dot-fr"></b> Français</span>
+          <span><b class="dot dot-it"></b> Italiano</span>
+          <span><b class="dot dot-ar"></b> العربية</span>
+        </div>
+        <div class="hero-stamp" aria-hidden="true"><span>4</span><small>languages<br>one idea</small></div>
+      </section>
+
+      <section class="ninety" aria-labelledby="ninety-title">
+        <div class="ninety-intro">
+          <p class="eyebrow">The number that takes a detour</p>
+          <h2 id="ninety-title">Meet <span>90</span></h2>
+          <p>One number, four different ways to build it. French famously does a little arithmetic.</p>
+        </div>
+        <div class="number-grid">
+          <article class="number-item">
+            <span class="number-language">ENGLISH</span>
+            <strong>ninety</strong>
+            <span class="number-note">a single word</span>
+          </article>
+          <article class="number-item">
+            <span class="number-language">FRANÇAIS</span>
+            <strong>quatre-vingt-dix</strong>
+            <span class="number-note">four twenties and ten (4 × 20 + 10)</span>
+          </article>
+          <article class="number-item">
+            <span class="number-language">ITALIANO</span>
+            <strong>novanta</strong>
+            <span class="number-note">the regular word for ninety</span>
+          </article>
+          <article class="number-item number-arabic">
+            <span class="number-language">العَرَبِيَّة</span>
+            <strong lang="ar" dir="rtl">تِسْعُونَ <small>/</small> تِسْعِينَ</strong>
+            <span class="number-note">tisʿūna / tisʿīna — the form changes with grammatical case</span>
+          </article>
+        </div>
+        <p class="number-footnote"><span>↳</span> In Belgium and parts of Switzerland, French speakers often say <i>nonante</i> instead. In Arabic, <span lang="ar" dir="rtl">تسعون</span> is the nominative form; <span lang="ar" dir="rtl">تسعين</span> is used in the accusative and genitive. In many dialects, <span lang="ar" dir="rtl">تسعين</span> (tisʿīn) is the everyday form.</p>
+      </section>
+
+      <section class="explorer" aria-labelledby="explorer-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">A thought, four translations</p>
+            <h2 id="explorer-title">Look a little closer<span class="period">.</span></h2>
+          </div>
+          <label class="search-wrap">
+            <span class="sr-only">Search examples</span>
+            <span class="search-icon" aria-hidden="true">⌕</span>
+            <input id="search" type="search" placeholder="Search a word or idea…" autocomplete="off">
+            <kbd>/</kbd>
+          </label>
+        </div>
+
+        <div class="filters" role="group" aria-label="Filter examples by topic">
+          <button class="filter is-active" type="button" data-filter="all" aria-pressed="true">All patterns <span>12</span></button>
+          <button class="filter" type="button" data-filter="being" aria-pressed="false">Being &amp; identity</button>
+          <button class="filter" type="button" data-filter="feelings" aria-pressed="false">Feelings &amp; needs</button>
+          <button class="filter" type="button" data-filter="structure" aria-pressed="false">Sentence structure</button>
+          <button class="filter" type="button" data-filter="everyday" aria-pressed="false">Everyday grammar</button>
+        </div>
+
+        <div id="cards" class="cards" aria-live="polite"></div>
+        <p id="empty-state" class="empty-state" hidden>No matches yet. Try another word or choose a different topic.</p>
+        <p id="result-count" class="result-count" aria-live="polite"></p>
+      </section>
+
+      <section class="takeaway" aria-label="A note about translation">
+        <span class="takeaway-mark" aria-hidden="true">“</span>
+        <p>Translation is not word-swapping. It is learning <em>what a language chooses to notice.</em></p>
+        <span class="takeaway-signoff">A NOTE TO LANGUAGE LEARNERS</span>
+      </section>
+    </main>
+
+    <footer>
+      <a class="wordmark" href="#top"><span class="wordmark-mark">ب</span> BETWEEN THE LINES</a>
+      <p>Made for the joy of noticing. <span lang="ar" dir="rtl">صُنِعَ بِحُبِّ اللُّغَات</span></p>
+      <a class="back-top" href="#top">Back to top ↑</a>
+    </footer>
+  </body>
+</html>
