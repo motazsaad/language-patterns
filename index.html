@@ -112,8 +112,15 @@
         <p class="eyebrow">Grammar, side by side</p>
         <h2 id="grammar-lab-title">Same idea, different machinery<span class="period">.</span></h2>
         <p class="grammar-lab-intro">Compare how these four languages mark actions, agreement, and even the sounds of their letters.</p>
+        <nav class="grammar-nav" aria-label="Grammar topics">
+          <a href="#gender-agreement">Nouns &amp; agreement</a>
+          <a href="#reflexive-verbs">Reflexive verbs</a>
+          <a href="#negation">Negation</a>
+          <a href="#conjugation">Conjugation &amp; roots</a>
+          <a href="#letter-c">Letter sounds</a>
+        </nav>
 
-        <article class="grammar-topic">
+        <article class="grammar-topic" id="gender-agreement">
           <h3>Gender can change from language to language</h3>
           <p>A noun’s grammatical gender is a feature of that language—not a property shared by the thing itself. Adjectives and articles may agree with the noun.</p>
           <div class="table-wrap">
@@ -155,13 +162,14 @@
           <p class="article-gender-note"><span>↳</span> The flower is feminine in French and Arabic but masculine in Italian. The street is feminine in French and Italian but masculine in Arabic. In “white flower,” the adjective changes to agree with the noun in French, Italian, and Arabic; English adjectives do not change.</p>
         </article>
 
-        <article class="grammar-topic">
+        <article class="grammar-topic" id="reflexive-verbs">
           <h3>Reflexive verbs: doing something to yourself</h3>
-          <p>French and Italian commonly use a short pronoun with the verb. English often adds “myself”; Arabic can use <span lang="ar" dir="rtl">نَفْسِي</span> (<i>nafsī</i>, “myself”) or a verb with a reflexive meaning.</p>
+          <p>French and Italian commonly use a short pronoun with reflexive verbs. But the same idea does not always use a reflexive verb in every language: English may use an ordinary verb or “myself,” and Arabic often uses a different verb or construction.</p>
           <div class="table-wrap">
             <table>
               <thead>
                 <tr>
+                  <th scope="col">Meaning</th>
                   <th scope="col">English</th>
                   <th scope="col">French</th>
                   <th scope="col">Italian</th>
@@ -170,18 +178,47 @@
               </thead>
               <tbody>
                 <tr>
+                  <th scope="row">wash oneself</th>
                   <td>I wash myself.</td>
                   <td><i>Je me lave.</i></td>
                   <td><i>Mi lavo.</i></td>
                   <td><span lang="ar" dir="rtl">أَغْسِلُ نَفْسِي</span> — <i>aghsilu nafsī</i>, “I wash myself”</td>
                 </tr>
+                <tr>
+                  <th scope="row">stand</th>
+                  <td>I stand.</td>
+                  <td><i>Je me tiens debout.</i></td>
+                  <td><i>Sto in piedi.</i></td>
+                  <td><span lang="ar" dir="rtl">أَقِفُ</span> — <i>aqifu</i>, “I stand”</td>
+                </tr>
+                <tr>
+                  <th scope="row">get up / stand up</th>
+                  <td>I get up.</td>
+                  <td><i>Je me lève.</i></td>
+                  <td><i>Mi alzo.</i></td>
+                  <td><span lang="ar" dir="rtl">أَنْهَضُ</span> — <i>anhaḍu</i>, “I get up”</td>
+                </tr>
+                <tr>
+                  <th scope="row">remember</th>
+                  <td>I remember.</td>
+                  <td><i>Je me souviens.</i></td>
+                  <td><i>Mi ricordo.</i></td>
+                  <td><span lang="ar" dir="rtl">أَتَذَكَّرُ</span> — <i>atadhakkaru</i>, “I remember”</td>
+                </tr>
+                <tr>
+                  <th scope="row">feel tired</th>
+                  <td>I feel tired.</td>
+                  <td><i>Je me sens fatigué(e).</i></td>
+                  <td><i>Mi sento stanco/a.</i></td>
+                  <td><span lang="ar" dir="rtl">أَشْعُرُ بِالتَّعَبِ</span> — <i>ashʿuru bit-taʿabi</i>, “I feel tiredness”</td>
+                </tr>
               </tbody>
             </table>
           </div>
-          <p class="article-gender-note"><span>↳</span> The forms are not mechanically identical: French <i>me</i> and Italian <i>mi</i> are reflexive pronouns, while this Arabic example uses the noun <i>nafs</i> (“self”) with a possessive ending. Arabic also has verbs such as <span lang="ar" dir="rtl">أَغْتَسِلُ</span> (<i>aghtasilu</i>, “I bathe / wash myself”).</p>
+          <p class="article-gender-note"><span>↳</span> French <i>se lever</i>, <i>se souvenir</i>, and <i>se sentir</i>, and Italian <i>alzarsi</i>, <i>ricordarsi</i>, and <i>sentirsi</i> are reflexive in these examples. Their English and Arabic equivalents are not necessarily reflexive. Arabic also has <span lang="ar" dir="rtl">أَغْتَسِلُ</span> (<i>aghtasilu</i>, “I bathe / wash myself”).</p>
         </article>
 
-        <article class="grammar-topic">
+        <article class="grammar-topic" id="negation">
           <h3>Negation takes different shapes</h3>
           <p>Even the simple idea “I do not understand” is built differently.</p>
           <div class="table-wrap">
@@ -207,7 +244,7 @@
           <p class="article-gender-note"><span>↳</span> English uses <i>do not</i> + verb; standard French places <i>ne … pas</i> around the verb (often just <i>pas</i> in casual speech); Italian puts <i>non</i> before it. Standard Arabic uses <i>lā</i> before the present-tense verb. Arabic negation also varies with tense and dialect.</p>
         </article>
 
-        <article class="grammar-topic">
+        <article class="grammar-topic" id="conjugation">
           <h3>Conjugation: endings, helpers, and roots</h3>
           <p>Conjugation changes a verb to show things like person, number, and tense. English uses a relatively small set of verb endings and often relies on helper words; French and Italian have more distinct endings.</p>
           <div class="table-wrap">
@@ -244,11 +281,46 @@
             </table>
           </div>
           <p class="article-gender-note"><span>↳</span> A common Arabic root is <span lang="ar" dir="rtl">ك-ت-ب</span> (<i>k-t-b</i>), associated with writing. Patterns add vowels and sometimes extra consonants: <span lang="ar" dir="rtl">كَتَبَ</span> (<i>kataba</i>, “he wrote”), <span lang="ar" dir="rtl">كاتِب</span> (<i>kātib</i>, “writer”), and <span lang="ar" dir="rtl">كِتاب</span> (<i>kitāb</i>, “book”). Root-and-pattern is a useful guide, though not every word is formed in a perfectly predictable way.</p>
+          <h4 class="root-pattern-title">A root can also build a word for a place</h4>
+          <p class="root-pattern-intro">A common place-noun pattern starts with <span lang="ar" dir="rtl">مـ</span> (<i>m-</i>) and fits the root into a template. Some place nouns use a feminine ending <span lang="ar" dir="rtl">ـة</span> (<i>-a</i>); the exact pattern depends on the word.</p>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th scope="col">Root &amp; idea</th>
+                  <th scope="col">Verb example</th>
+                  <th scope="col">Place noun</th>
+                  <th scope="col">Pattern / meaning</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row"><span lang="ar" dir="rtl">ك-ت-ب</span> (<i>k-t-b</i>, writing)</th>
+                  <td><span lang="ar" dir="rtl">كَتَبَ</span> (<i>kataba</i>, “he wrote”); <span lang="ar" dir="rtl">أَكْتُبُ</span> (<i>aktubu</i>, “I write”)</td>
+                  <td><span lang="ar" dir="rtl">مَكْتَب</span> (<i>maktab</i>, office / desk)</td>
+                  <td><span lang="ar" dir="rtl">مَفْعَل</span> (<i>mafʿal</i>), masculine</td>
+                </tr>
+                <tr>
+                  <th scope="row"><span lang="ar" dir="rtl">د-ر-س</span> (<i>d-r-s</i>, studying)</th>
+                  <td><span lang="ar" dir="rtl">دَرَسَ</span> (<i>darasa</i>, “he studied”); <span lang="ar" dir="rtl">أَدْرُسُ</span> (<i>adrusu</i>, “I study”)</td>
+                  <td><span lang="ar" dir="rtl">مَدْرَسَة</span> (<i>madrasa</i>, school)</td>
+                  <td><span lang="ar" dir="rtl">مَفْعَلَة</span> (<i>mafʿala</i>), feminine ending <i>-a</i></td>
+                </tr>
+                <tr>
+                  <th scope="row"><span lang="ar" dir="rtl">ل-ع-ب</span> (<i>l-ʿ-b</i>, playing)</th>
+                  <td><span lang="ar" dir="rtl">لَعِبَ</span> (<i>laʿiba</i>, “he played”); <span lang="ar" dir="rtl">أَلْعَبُ</span> (<i>alʿabu</i>, “I play”)</td>
+                  <td><span lang="ar" dir="rtl">مَلْعَب</span> (<i>malʿab</i>, playing field / stadium)</td>
+                  <td><span lang="ar" dir="rtl">مَفْعَل</span> (<i>mafʿal</i>), masculine</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="article-gender-note"><span>↳</span> Think of the root consonants as the core idea and the pattern as a template. For instance, the <i>m-</i> place pattern appears in <i>maktab</i> and <i>malʿab</i>; <i>madrasa</i> uses a feminine pattern ending in <span lang="ar" dir="rtl">ة</span> (<i>-a</i>). This is a useful pattern, not a rule that every place name is made by simply adding <i>m</i> and <i>tāʾ marbūṭa</i>.</p>
         </article>
 
-        <article class="grammar-topic">
+        <article class="grammar-topic" id="letter-c">
           <h3>The letter C—and the Arabic letter ج</h3>
-          <p>The Latin letter C is named differently in English, French, and Italian, and its sound in a word depends on the language and what follows it. Arabic has no C: its third letter is <span lang="ar" dir="rtl">ج</span> (<i>jīm</i>).</p>
+          <p>The Latin letter C is named differently in English, French, and Italian, and its sound in a word depends on the language and what follows it. Arabic script has no C. The distinct Arabic letter <span lang="ar" dir="rtl">ج</span> is called <i>jīm</i>; it is not the Arabic alphabet’s third letter.</p>
           <div class="table-wrap">
             <table>
               <thead>
@@ -276,7 +348,7 @@
                 </tr>
                 <tr>
                   <th scope="row">Arabic</th>
-                  <td>No C; the third letter is <span lang="ar" dir="rtl">ج</span> — <i>jīm</i>.</td>
+                  <td>No C; <span lang="ar" dir="rtl">ج</span> is <i>jīm</i>.</td>
                   <td>Often /dʒ/ in Modern Standard Arabic; pronunciation varies by dialect, including /g/ in Egyptian Arabic and /ʒ/ in some Levantine varieties.</td>
                 </tr>
               </tbody>
